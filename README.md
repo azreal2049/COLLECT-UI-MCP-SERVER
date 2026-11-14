@@ -1,6 +1,6 @@
-
+<<<<<<< HEAD
 # COLLECT-UI-MCP-SERVER
-
+=======
 <div align="center">
 
 # 🎨 Collect UI MCP
@@ -365,4 +365,4 @@ Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`CODE_OF_CONDUCT.md`](CODE
 <sub>Made with ❤️ and a mild obsession with clean components.</sub>
 
 </div>
-
+>>>>>>> 6995874 (Initial commit)

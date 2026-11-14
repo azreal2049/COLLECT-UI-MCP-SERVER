@@ -1,0 +1,49 @@
+{
+  "name": "collectui-mcp",
+  "version": "0.1.0",
+  "description": "Show your coding agent a design, not a screenshot. Turns a CollectUI link (or any image/GIF/video URL) into a measured design and motion brief: durations, easing curves, displacement, palette and layout — in ~2.5k tokens, no screenshots required.",
+  "license": "MIT",
+  "author": "Rayhan Khilji",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rayhankhilji/collectui-mcp.git"
+  },
+  "homepage": "https://github.com/rayhankhilji/collectui-mcp#readme",
+  "bugs": {
+    "url": "https://github.com/rayhankhilji/collectui-mcp/issues"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "collectui",
+    "design",
+    "animation",
+    "motion-design",
+    "ui-design",
+    "ffmpeg",
+    "ai-agents"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "type": "module",
+  "bin": { "collectui-mcp": "dist/index.js" },
+  "main": "dist/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
